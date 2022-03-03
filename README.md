@@ -1,2 +1,3 @@
-# CppCatCommand
-Coding challenge
+# C++ "cat" command
+
+Part of a coding challenge

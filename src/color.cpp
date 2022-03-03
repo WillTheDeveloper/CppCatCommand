@@ -1,4 +1,5 @@
-#include "./headers/color.h"
+#include "headers/color.h"
+#include <iostream>
 
 enum color{
     red,
