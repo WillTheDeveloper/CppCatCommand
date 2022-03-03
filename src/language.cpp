@@ -1,15 +1,14 @@
 #include "headers/language.h"
-#include <string>
 #include <iostream>
 
 using namespace languageN;
 
 enum extensions {
-    txt,
-    cpp,
-    css,
-    html
-}
+    txt = 1,
+    cpp = 2,
+    css = 3,
+    html = 4
+};
 
 std::string languageN::DetermineLanguage(std::string extension){
     switch(extension){

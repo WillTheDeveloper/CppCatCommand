@@ -1,9 +1,10 @@
 #include <iostream>
-#include <string>
 #include <fstream>
 
 #include "src/headers/language.h"
 using namespace languageN;
+#include "src/headers/color.h"
+using namespace colorN;
 
 int main()
 {
@@ -29,6 +30,7 @@ int main()
     std::cout << "=======================================" << std::endl;
     std::cout << "Lines of code: " << count << std::endl;
     std::cout << "File name:" << "placeholder" << std::endl;
+    std::cout << "Color: " << colorN::outputcolor("red") << std::endl;
     std::cout << "Language: " << languageN::DetermineLanguage(thing) << std::endl;
     std::cout << "=======================================" << std::endl;
 }

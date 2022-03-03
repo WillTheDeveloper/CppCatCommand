@@ -1,18 +1,21 @@
 #include "headers/color.h"
 #include <iostream>
 
-enum color{
-    red,
-    blue,
-    purple,
-    black,
-    white
-}
+using namespace colorN;
 
-std::string outputcolor()
+enum color{
+    red = 1,
+    blue = 2,
+    purple = 3,
+    black = 4,
+    white = 5
+};
+
+std::string colorN::outputcolor(std::string selection)
 {
-    switch(color)
+    switch(selection)
     {
+        case red: std::cout << "Red" << std::endl;
         default: std::cout << "Color not defined/found" << std::endl;
     }
 }
