@@ -4,11 +4,11 @@
 #include "src/headers/language.h"
 #include "src/headers/color.h"
 
+using namespace colorN;
+using namespace languageN;
+
 int main()
 {
-    using namespace colorN;
-    using namespace languageN;
-
     std::string outPut;
 
     int count = 0;
